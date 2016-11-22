@@ -515,6 +515,8 @@ a {
         -ms-animation-delay: 4.75s;
         animation-delay: 4.75s; }
     #header nav a {
+      color: #fff;
+      text-decoration:none;
       -webkit-tap-highlight-color: transparent;
       -webkit-touch-callout: none;
       border: 0;
