@@ -126,7 +126,7 @@
           Inquiry: $('[name="Inquiry"]').val(),
         }, function () {
           $('#inquiry').modal('hide')
-          $('form').find("input[type=text], textarea").val("");
+          $('form').find("input[type=text], input[type=number], textarea").val("");
 
           $('#thankyou').modal('show')
         })
