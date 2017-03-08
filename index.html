@@ -118,7 +118,7 @@ Thank you for submitting your inquiry to Member.Id. Our representative will get 
 		</script>
 		<script>
 	    $('.btn-inquiry').click(function () {
-        $.post('http://id.member.id:8080/websiteinquiry/create\?token\=2909d7389dbfd981eb64fe219dbffce9', {
+        $.post('http://api.lifesytle.ismaya.com/websiteinquiry/create\?token\=2909d7389dbfd981eb64fe219dbffce9', {
           Name: $('[name="Name"]').val(),
           Company: $('[name="Company"]').val(),
           PhoneNumber: $('[name="PhoneNumber"]').val(),
